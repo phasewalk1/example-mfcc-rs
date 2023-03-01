@@ -1,0 +1,16 @@
+[package]
+name = "mfcc-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aubio = "0.2.1"
+hound = "3.5.0"
+ndarray = "0.15.6"
+rustfft = "6.1.0"
+serde_json = "1.0.93"
+
+[dependencies.mfcc]
+git = "https://github.com/bytesnake/mfcc"
